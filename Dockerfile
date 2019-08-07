@@ -4,7 +4,7 @@ RUN npm install -g --unsafe-perm \
       homebridge \
       homebridge-nest \
       homebridge-hue \
-      homebridge-config-ui-x
+      homebridge-webos-tv
 
 RUN mkdir -p /root/.homebridge
 VOLUME /root/.homebridge
